@@ -6,5 +6,6 @@ public class Test {
     mc.drink();
     Animals an = new Animals();
     an.drink();
+    System.out.println("im free");
   }
 }
