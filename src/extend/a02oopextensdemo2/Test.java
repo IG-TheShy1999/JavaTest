@@ -22,12 +22,15 @@ class Fu {
 class Zi extends Fu {
   @Override
   public void drink() {
-    System.out.println("drink");
+    System.out.println("drink water");
   }
 
 
   public void lunch() {
     super.eat();
     super.drink();
+    this.drink();
   }
+
+
 }
