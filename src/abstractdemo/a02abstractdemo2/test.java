@@ -5,5 +5,6 @@ public class test {
         frog f =new frog("frog",1);
         f.drink();
         f.eat();
+        frog i = new frog("haha", 99);
     }
 }

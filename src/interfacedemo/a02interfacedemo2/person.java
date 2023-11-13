@@ -1,20 +1,13 @@
-package codeblock;
+package interfacedemo.a02interfacedemo2;
 
-public class Student {
+public class person {
     private String name;
     private int age;
 
-    static {
-        System.out.println("haha");
-
+    public person() {
     }
 
-    public Student() {
-        System.out.println("none");
-
-    }
-
-    public Student(String name, int age) {
+    public person(String name, int age) {
         this.name = name;
         this.age = age;
     }
