@@ -10,20 +10,17 @@ public class test8 {
 
     private static void toTwo(int num) {
         ArrayList list = new ArrayList<>();
-        while (true) {
-
+        String count = "";
+        while (num != 0) {
             int yu = num % 2;
-            list.add(yu);
+            count = yu + count;
             num = num / 2;
-            if (num == 0) {
-                break;
-            }
+
 //            System.out.println(num);
         }
-        String count = "";
-        for (int i = list.size() - 1; i > 0; i--) {
-            count += list.get(i).toString();
-        }
+//        for (int i = list.size() - 1; i > 0; i--) {
+//            count += list.get(i).toString();
+//        }
         System.out.println(count);
     }
 }
